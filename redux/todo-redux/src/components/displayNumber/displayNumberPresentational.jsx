@@ -1,7 +1,11 @@
 import React from 'react';
 
-const displayNumberPresentational = () => {
-  return <div>displayNumberPresentational</div>;
+const DisplayNumberPresentational = () => {
+  return (
+    <div>
+      <span>total : 12</span>
+    </div>
+  );
 };
 
-export default displayNumberPresentational;
+export default DisplayNumberPresentational;

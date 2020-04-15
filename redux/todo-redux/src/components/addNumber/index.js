@@ -1,3 +1,3 @@
-import addNumber from './addNumberContainer';
+import addNumber from './AddNumberContainer';
 
 export default addNumber;

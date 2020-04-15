@@ -1,7 +1,7 @@
 import React from 'react';
-import DisplayNumberPresentational from './displayNumberPresentational';
+import DisplayNumberPresentational from './DisplayNumberPresentational';
 
-const displayNumberContainer = () => {
+const DisplayNumberContainer = () => {
   return (
     <div>
       <DisplayNumberPresentational />
@@ -9,4 +9,4 @@ const displayNumberContainer = () => {
   );
 };
 
-export default displayNumberContainer;
+export default DisplayNumberContainer;

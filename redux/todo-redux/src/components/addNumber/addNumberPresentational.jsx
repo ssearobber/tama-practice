@@ -1,7 +1,14 @@
 import React from 'react';
 
-const addNumberPresentational = () => {
-  return <div>addNumberPresentational</div>;
+const AddNumberPresentational = ({ handleOnchange, handleAddOnclick }) => {
+  return (
+    <div>
+      <form>
+        <input type="text" onChange={handleOnchange} />
+        <button onClick={handleAddOnclick}>add</button>
+      </form>
+    </div>
+  );
 };
 
-export default addNumberPresentational;
+export default AddNumberPresentational;

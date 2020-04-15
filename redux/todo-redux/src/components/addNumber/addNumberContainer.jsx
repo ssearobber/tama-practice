@@ -1,12 +1,18 @@
-import React from 'react';
-import AddNumberPresentational from './addNumberPresentational';
+import React, { useState } from 'react';
+import AddNumberPresentational from './AddNumberPresentational';
 
-const addNumberContainer = () => {
+const AddNumberContainer = () => {
+  const [inputData, setInputData] = useState(0);
+  const handleOnchange = () => {};
+  const handleAddOnclick = () => {};
   return (
     <div>
-      <AddNumberPresentational />
+      <AddNumberPresentational
+        handleOnchange={handleOnchange}
+        handleAddOnclick={handleAddOnclick}
+      />
     </div>
   );
 };
 
-export default addNumberContainer;
+export default AddNumberContainer;

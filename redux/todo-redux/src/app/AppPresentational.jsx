@@ -5,8 +5,10 @@ import DisplayNumber from '../components/displayNumber';
 const AppPresentational = () => {
   return (
     <>
-      <AddNumber />
-      <DisplayNumber />
+      <div style={{ textAlign: 'center' }}>
+        <AddNumber />
+        <DisplayNumber />
+      </div>
     </>
   );
 };
